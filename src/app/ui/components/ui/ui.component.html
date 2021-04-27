@@ -1,7 +1,11 @@
 <header class="fixed-top">
   <!-- projection d'un icon to close navigation -->
-  <span (click)="toggle()">
+  <span *ngIf="open" (click)="toggle()">
     <ng-content select=".tr-icon-close"></ng-content>
+  </span>
+  <!-- projection d'un icon to open navigation -->
+  <span *ngIf="!open" (click)="toggle()">
+    <ng-content select=".tr-icon-open"></ng-content>
   </span>
   <ng-content select=".tr-header"></ng-content>
 </header>
