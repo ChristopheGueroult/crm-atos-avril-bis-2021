@@ -4,6 +4,11 @@
   flex-direction: column;
 }
 
+.close-aside {
+  height: 0px;
+  overflow: hidden;
+}
+
 nav {
   background: var(--app-darklight2);
 }
