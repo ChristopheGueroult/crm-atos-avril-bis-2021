@@ -1,0 +1,60 @@
+{
+  "orders": [
+    {
+      "tjmHt": 1200,
+      "nbJours": 100,
+      "tva": 20,
+      "state": "OPTION",
+      "typePresta": "formation",
+      "client": "Modis",
+      "comment": "Merci Modis pour les 120 k",
+      "id": 1
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 1,
+      "tva": 20,
+      "state": "CANCELED",
+      "typePresta": "formation",
+      "client": "M2i",
+      "comment": "Merci M2i",
+      "id": 2
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 100,
+      "tva": 20,
+      "state": "CANCELED",
+      "typePresta": "coachging",
+      "client": "ATOS",
+      "comment": "Merci MODIS",
+      "id": 3
+    }
+  ],
+  "clients": [
+    {
+      "state": "ACTIVE",
+      "tva": 20,
+      "id": 1,
+      "name": "Christophe2",
+      "totalCaHt": 12000,
+      "comment": "un comment pour client christophe2"
+    },
+    {
+      "state": "INACTIVE",
+      "tva": 20,
+      "id": 2,
+      "name": "Modis",
+      "totalCaHt": 120000,
+      "comment": "un comment pour client modis"
+    },
+    {
+      "tva": 20,
+      "state": "ACTIVE",
+      "name": "modis",
+      "totalCaHt": 0,
+      "comment": "rsger",
+      "id": 3
+    }
+  ]
+}
