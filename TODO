@@ -3,6 +3,31 @@
 ☐ EQUIPE DES SOURIS ROUGE
   ☐ 191
 
+☐ Sabrina : 100
+☐ Aymeric : 50
+☐ Véronique : 25
 
-☐ 100
-☐ echange
+ ☐ page list client (récupérer la collection clients)
+  ☐ créer un enum (ACTIVE , INACTIVE) state-client
+  ☐ créer une interface client-i (voir db.json)
+  ☐ créer le model (ng g class client)
+    ☐ default value state = ACTIVE (en utilisant l'enum)
+    ☐ default value tva = 20
+    ☐ default value totalCaHT = 0
+  ☐ créer le service clients
+    ☐ prendre ex sur OrdersService appel http (.../clients)
+  ☐ pagelistclientscomponent.ts récupérer la flux de donné retourné par l'appel http présent sur votre service
+    ☐ injecter votre service clients dans le constructor
+    ☐ créer un observable client$
+    ☐ initialiser votre observable avec  this.clientsService.collection
+    ☐ souscrire a l'aide pipe async dans le html
+  ☐ page list clients html
+    ☐ utiliser app template full width en changeant le title
+    ☐ utiliser app table light
+      ☐ afficher dans le tableau : le name, le total ca ht, le taux tva, le total ttc (a calculer avec le meme pipe total), le state
+      ☐ on peut changer de state directement dans le tableau
+      ☐ utiliser app btn pour une redirection vers la route clients/add
+  ☐ page list clients ts
+    ☐ declarer changeState() et faire le subscribe() a this.clientsService.changeItem()
+
+
