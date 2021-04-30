@@ -4,8 +4,10 @@
   ☐ 191
 
 ☐ Sabrina : 100
-☐ Aymeric : 50
+☐ Aymeric : 60
 ☐ Véronique : 25
+☐ Roland : 10
+☐ Oumaya : 100
 
  ☐ page list client (récupérer la collection clients)
   ☐ créer un enum (ACTIVE , INACTIVE) state-client
