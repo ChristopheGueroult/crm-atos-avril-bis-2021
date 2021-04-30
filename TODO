@@ -3,11 +3,12 @@
 ☐ EQUIPE DES SOURIS ROUGE
   ☐ 191
 
-☐ Sabrina : 100
-☐ Aymeric : 60
+☐ Sabrina : 700
+☐ Aymeric : 460
 ☐ Véronique : 25
 ☐ Roland : 10
-☐ Oumaya : 100
+☐ Oumaya : 150
+☐ Olivier : 100
 
  ☐ page list client (récupérer la collection clients)
   ☐ créer un enum (ACTIVE , INACTIVE) state-client
